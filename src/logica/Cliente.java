@@ -15,9 +15,7 @@ public class Cliente {
 
     public void lanzamiento() {
         Dado a = new Dado();
-        a.lanzamiento();
         Dado b = new Dado();
-        b.lanzamiento();
         int f2=0,f3=0,f4=0,f5=0,f6=0,f7=0,f8=0,f9=0,f10=0,f11=0,f12=0;
         for (int i = 0; i < 1000; i++) {
             int s=a.lanzamiento()+b.lanzamiento();
